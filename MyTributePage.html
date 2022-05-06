@@ -1,0 +1,112 @@
+<style>
+    #img-caption{
+        padding: 1px;
+        text-align: center;
+        font-size: small;
+    }
+    #image{
+        width: 254px;
+        border-radius: 5px;
+        padding: 4px;
+    }
+    .responsive-img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;    
+    }
+
+    #img-div{
+        position: relative;
+        width: 254px;
+        max-width: 100%;
+        border-radius: 5px;
+        padding: 4px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -webkit-transform: translate(-50%, 0);
+    }
+    .thumbnail{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+    h1{
+        margin-top: 80px;
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #body{
+        margin: 0px;
+        padding: 0px;
+        background-color:beige;
+        font-family:'Times New Roman', Times, serif;
+    }
+    #main-header{
+        position: fixed !important;
+        top: 0;
+        display:flex;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        align-self: center;
+        padding: 10px;
+        font-size: 18px;
+        color:rgb(39, 117, 39);
+        background-color:rgb(214, 214, 185);
+    }
+    .scroll {
+    overflow: auto;
+    height: auto;
+    padding: 0;
+    margin-left: 37px;
+}
+    .responsive-header {
+        display: block;
+        max-width: 100%;
+        height: auto;    
+    }
+    #kotak{
+        margin: 30px;
+        padding: 5px;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+</style>
+
+
+<html lang="en" id="main"> <!--Story #1-->
+<head>
+    <meta charset="utf-8">
+    <title id="title">My Tribute Page</title> <!--Story #2-->
+</head>  
+
+<body id="body">
+    <header id="main-header" class="thumbnail scroll">
+        <div>My Tribute Page</div>    
+    </header>
+
+    <div id="img-div" class="responsive-img">
+        <h1>Muhammad Hatta</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/VP_Hatta.jpg" id="image" class="thumbnail responsive-img" alt="M-Hatta"> <!--Story #4-->    
+        <p id="img-caption"><strong> Hatta, wakil presiden pertama Indonesia</strong></p> <!--Story #5-->
+    </div>
+    <div id="kotak">
+        <p id="tribute-info">Dr. (H.C.) Drs. H. Mohammad Hatta (12 Agustus 1902 – 14 Maret 1980) adalah negarawan dan ekonom Indonesia yang menjabat sebagai Wakil Presiden Indonesia pertama. Ia bersama Soekarno memainkan peranan sentral dalam perjuangan kemerdekaan Indonesia dari penjajahan Belanda sekaligus memproklamirkannya pada 17 Agustus 1945. Ia pernah menjabat sebagai Perdana Menteri dalam Kabinet Hatta I, Hatta II, dan RIS. Pada 1956, ia mundur dari jabatan wakil presiden.
+            Hatta dikenal akan komitmennya pada demokrasi. Ia mengeluarkan Maklumat X yang menjadi tonggak awal demokrasi Indonesia. Di bidang ekonomi, pemikiran dan sumbangsihnya terhadap perkembangan koperasi membuat ia dijuluki sebagai Bapak Koperasi.
+            Hatta meninggal pada 1980 dan jenazahnya dimakamkan di Tanah Kusir, Jakarta. Pemerintah Indonesia menetapkannya sebagai salah seorang Pahlawan Nasional Indonesia pada tanggal 23 Oktober 1986 melalui Keppres nomor 081/TK/1986. Namanya bersanding dengan Soekarno sebagai Dwi-Tunggal dan disematkan pada Bandar Udara Soekarno-Hatta. Di Belanda, namanya diabadikan sebagai nama jalan di kawasan perumahan Zuiderpolder, Haarlem.
+        </p> <!--Story #6-->
+        <p>Cek lebih lanjut,
+        <a href="https://id.wikipedia.org/wiki/Mohammad_Hatta" id="tribute-link" target="_blank">Profil Muhammad Hatta di Wikipedia</a></p> <!--Story #7-->
+    </div>
+    <div id="kotak">
+        <h3>History</h3>
+        <ul>
+            <li>Masa Muda</li>
+                <h4>Latar belakang</h4>
+            <li>Perjuangan dan Pergerakan</li>
+            <li>Wafat</li>
+        </ul>
+    </div>
+</body>
+</html>
